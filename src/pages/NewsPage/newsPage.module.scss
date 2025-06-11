@@ -1,0 +1,34 @@
+.newsPage {
+  width: 100%;
+  height: 100%;
+  flex-direction: column;
+
+  &__addButton {
+    padding: 0 24px;
+    justify-content: flex-end;
+  }
+
+  &__list {
+    padding: 48px;
+  }
+}
+
+.newsItem {
+  &__cardBody {
+    flex-direction: column;
+    padding: 16px;
+    width: 100%;
+    height: 100%;
+    gap: 8px;
+  }
+
+  &__date {
+    margin-top: auto;
+    justify-content: flex-end;
+    
+    & span {
+      color: var(--ant-color-info-text);
+      font-size: 12px;
+    }
+  }
+}

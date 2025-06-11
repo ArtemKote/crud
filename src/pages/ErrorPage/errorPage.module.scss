@@ -1,0 +1,15 @@
+.errorPage {
+  &__wrapper {
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+  }
+
+  &__textBlock {
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+  }
+}
